@@ -1,0 +1,48 @@
+@import "./variables.scss";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+
+
+
+  font-size: medium;
+
+}
+
+
+
+#__next {
+  height: 100%;
+
+}
+
+.app-wrapper {
+  height: 100%;
+  padding-top: 56px;
+
+  .app-container {
+    padding: 10px;
+    padding-bottom: 0px;
+    height: 100%;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}

@@ -1,0 +1,15 @@
+.layout {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: red;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.child {
+  padding: 20px;
+  color: white;
+  background-color: green;
+}
